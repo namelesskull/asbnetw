@@ -16,8 +16,8 @@ All-in-one WiFi network toolkit for Linux. Single binary, no runtime dependencie
 ### 1. Download & install binary
 
 ```bash
-sudo curl -L -o /usr/local/bin/asbnetw bin.asepbens.in
-sudo chmod +x /usr/local/bin/asbnetw
+sudo curl -L https://github.com/namelesskull/asbnetw/releases/download/v0.1.0/asbnetw-x86_64 \
+  -o /usr/local/bin/asbnetw && sudo chmod +x /usr/local/bin/asbnetw
 ```
 
 Verify:
